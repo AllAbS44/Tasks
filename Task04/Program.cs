@@ -13,3 +13,4 @@ else if (c > a && c > b) Console.WriteLine($"a = {a}; b = {b}; c = {c} -> max = 
 else if (a == b && a > c) Console.WriteLine($"a = {a}; b = {b}; c = {c} -> max = {a}");
 else if (a == c && a > b) Console.WriteLine($"a = {a}; b = {b}; c = {c} -> max = {a}");
 else if (b == c && b > a) Console.WriteLine($"a = {a}; b = {b}; c = {c} -> max = {b}");
+else if (a == b && a == c) Console.WriteLine($"a = {a}; b = {b}; c = {c} -> max = {a}");
