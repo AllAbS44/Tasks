@@ -6,7 +6,7 @@ int number2 = int.Parse(Console.ReadLine());
 
 bool Multiple(int numb1, int numb2)
 {
-    return ((numb1 % numb2 ==0) || (numb2 % numb1 == 0));
+    return ((numb1 * numb1 == numb2) || (numb2 * numb2 == numb1));
 }
 
 bool result = Multiple(number1, number2);
