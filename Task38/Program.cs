@@ -11,8 +11,8 @@
 
 double[] DifferenceMaxMin(double[] arr)
 {
-    double max = 0;
-    double min = 1000;
+    double max = arr[i];
+    double min = arr[i];
     double[] res = new double[2];
     for (int i = 0; i < arr.Length; i++)
     {
